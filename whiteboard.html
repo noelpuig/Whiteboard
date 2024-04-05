@@ -1,21 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Whiteboard test</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body> 
-    <div class="options">
-        <button class="option" onclick="changeColor('black');" style="background-color: #222;"> </button>
-        <button class="option" onclick="changeColor('red');" style="background-color: #fc0000;"> </button>
-        <button class="option" onclick="changeColor('blue');" style="background-color: #00acfc;"> </button>
-        <button class="option" onclick="changeColor('green');" style="background-color: #3f8218;"> </button>
-    </div>
-    <div id="main-container" class="main-container">
-        <canvas id="canvas" class="canvas"></canvas>
-    </div>
-    <script src="whiteboard.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Whiteboard test</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="options">
+            <button
+                class="option"
+                onclick="changeColor('black');"
+                style="background-color: #222"
+            ></button>
+            <button
+                class="option"
+                onclick="changeColor('red');"
+                style="background-color: #fc0000"
+            ></button>
+            <button
+                class="option"
+                onclick="changeColor('blue');"
+                style="background-color: #00acfc"
+            ></button>
+            <button
+                class="option"
+                onclick="changeColor('green');"
+                style="background-color: #3f8218"
+            ></button>
+        </div>
+        <div id="main-container" class="main-container">
+            <canvas id="canvas" class="canvas"></canvas>
+        </div>
+        <script src="whiteboard.js"></script>
+    </body>
 </html>
